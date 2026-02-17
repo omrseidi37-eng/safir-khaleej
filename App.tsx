@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, Product, CartItem, StoreSettings, CountryConfig } from './types';
 import { INITIAL_PRODUCTS, CATEGORIES as INITIAL_CATEGORIES, GULF_COUNTRIES } from './constants';
