@@ -1,0 +1,7 @@
+{
+  "name": "سفير الخليج - Gulf Ambassador",
+  "description": "منصة دروبشيبينغ عالمية متكاملة لأسواق الخليج، تدعم العملات المحلية، شحن مخصص، وبوابة إدارة سرية.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
