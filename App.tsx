@@ -2,15 +2,14 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, Product, CartItem, StoreSettings, CountryConfig } from './types';
 import { INITIAL_PRODUCTS, CATEGORIES as INITIAL_CATEGORIES, GULF_COUNTRIES } from './constants';
-import Header from './components/Header';
-import ProductCard from './components/ProductCard';
-import Cart from './components/Cart';
-import Checkout from './components/Checkout';
-import QuickAdmin from './components/QuickAdmin';
-import WelcomePopup from './components/WelcomePopup';
-import AdminLogin from './components/AdminLogin';
-import PoliciesModal from './components/PoliciesModal';
-
+import Header from './header';
+import ProductCard from './ProductCard';
+import Cart from './Cart';
+import Checkout from './Checkout';
+import QuickAdmin from './QuickAdmin';
+import WelcomePopup from './WelcomePopup';
+import AdminLogin from './AdminLogin';
+import PoliciesModal from './PolicyModal';
 const LS_PRODUCTS_KEY = 'gulf_store_products_global_v4';
 const LS_SETTINGS_KEY = 'gulf_store_settings_v4';
 const LS_COUNTRY_KEY = 'gulf_user_country_v4';
